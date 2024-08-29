@@ -9,8 +9,7 @@ import org.springframework.ui.Model;
 public class LoginController {
 
     @GetMapping("/index")
-    public String index(Model model) {
-        model.addAttribute("message", "Welcome to our website!");
-        return "index"; // Thymeleaf template name (greeting.html)
+    public String index() {
+        return "index";
     }
 }
