@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 @Controller
 public class LoginController {
 
-    @GetMapping("/index")
+    @GetMapping("/")
     public String index() {
         return "index";
     }
